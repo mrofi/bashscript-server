@@ -1,0 +1,25 @@
+# Binaries
+/server
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build files
+*.out
+*.test
+
+# Vendor folder (if used)
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log

@@ -35,7 +35,7 @@ docker run -p 8080:8080 bashscript-server
 #### Use as base image
 
 ```dockerfile
-FROM ghcr.io/mrofi/bashscript-server/bashscript-server:latest
+FROM ghcr.io/mrofi/bashscript-server:latest
 COPY scripts /app/scripts
 ```
 
@@ -45,7 +45,7 @@ COPY scripts /app/scripts
 docker run -p 8080:8080 \
   -e SCRIPT_DIR=/scripts \
   -v $(pwd)/scripts:/scripts \
-  bashscript-server
+  ghcr.io/mrofi/bashscript-server
 ```
 
 ---
